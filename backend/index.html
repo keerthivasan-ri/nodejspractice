@@ -1,0 +1,22 @@
+<html>
+    <body>
+        <h1>helloworld</h1>
+    </body>
+    <script>
+        const url="https://musical-space-train-wr5g76gx46q93vvvp-3333.app.github.dev"
+        fetch(url,{
+            method:"POST",
+        body:JSON.stringify({
+            name:"bashil",
+            age:"19",rollNo:99999999
+            }),
+            headers:{
+                'Content-Type':'application/json'
+            }
+        })
+
+        .then((response)=>{
+            console.log(response)
+        })
+    </script>
+</html>
